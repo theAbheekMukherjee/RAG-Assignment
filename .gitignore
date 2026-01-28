@@ -1,0 +1,32 @@
+# Python .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / packaging
+.Python
+env/
+env.bak/
+venv/
+ENV/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+*.idea/
+*.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# logs and caches
+*.log
+*.cache
+
+# models
+models/
